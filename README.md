@@ -4,7 +4,7 @@ A CLI Chat Program Based on Apache Kafka
 ## Requirements
  - JDK >= 1.7
  - [Maven](https://maven.apache.org/download.cgi) 
- - [Apache Kafka 0.8.2.2](http://www.http://kafka.apache.org/) 
+ - [Apache Kafka 0.8.2.2](http://www.http://kafka.apache.org/) (with `ZooKeeper` included)
 
 
 ## How to Build
@@ -20,8 +20,16 @@ A CLI Chat Program Based on Apache Kafka
 	 ```
 
 ## How to Run	 
-1. Start `zookeeper` server
-2. Start `kafka` broker
+1. Start `ZooKeeper` server on your machine
+
+	 ```
+	 $ bin/zookeeper-server-start.sh config/zookeeper.properties
+	 ```
+2. Start `Kafka` server on your machine
+
+	 ```
+	 $ bin/kafka-server-start.sh config/server.properties
+	 ```
 2. Run `ChatServer` from the generated `jar` in `target` folder  
 
 	 ```
