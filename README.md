@@ -63,7 +63,7 @@ A CLI Chat Program Based on Apache Kafka
 * Multiclient chat
 
 #### Testing Screenshoot:
-![alt text](https://github.com/edmundophie/kafka-chat/blob/testing_screenshot_prak_5.png "Testing Result")
+![alt text](https://github.com/edmundophie/kafka-chat/blob/master/blob/testing_screenshot_prak_5.png "Testing Result")
 
 ## Team Member
 - Edmund Ophie 13512095
