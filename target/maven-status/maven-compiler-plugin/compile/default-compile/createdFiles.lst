@@ -1,0 +1,8 @@
+com/edmundophie/chat/ChatClient.class
+com/edmundophie/rpc/Request.class
+com/edmundophie/chat/ChatServer.class
+com/edmundophie/chat/MessageConsumerImpl.class
+com/edmundophie/chat/User.class
+com/edmundophie/chat/Channel.class
+com/edmundophie/rpc/Response.class
+com/edmundophie/chat/Message.class
